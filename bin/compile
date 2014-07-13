@@ -31,7 +31,7 @@ else
   fi
   echo "-----> Downloading ZNC"
   cd $BUILD_DIR
-  curl -s "$download" >$tgz
+  curl -s "$download" > $tgz
 
   echo "-----> Filetype: $(file $tgz)"
 
