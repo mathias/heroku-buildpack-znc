@@ -13,7 +13,7 @@ function indent() {
   sed -u "$c"
 }
 
-version=1.4
+version="1.4"
 release="znc-$version"
 tgz="$release.tar.gz"
 download="http://znc.in/releases/$tgz"
