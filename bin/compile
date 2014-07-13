@@ -32,7 +32,9 @@ else
   echo "-----> Downloading ZNC"
   cd $BUILD_DIR
   curl -s "$download" >$tgz
-  echo "Filetype: $(file $tgz)"
+
+  echo "-----> Filetype: $(file $tgz)"
+
   tar -x -z -f $tgz
   rm $tgz
   mv $release src
